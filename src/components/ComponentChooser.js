@@ -44,6 +44,7 @@ class ComponentChooser extends JolokiaBackedComponent {
 
         return (
             <div className="ComponentChooser">
+                Add a Monitoring Component:
                 <Select
                     name="form-field-name"
                     value={value}

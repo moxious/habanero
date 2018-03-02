@@ -45,7 +45,6 @@ class App extends Component {
         </p>
 
         <div class='App-body'>
-          <h2>Select a Monitoring Component to add</h2>
           <ComponentChooser filter='org.neo4j' app={this} />
 
           <Tabs>
